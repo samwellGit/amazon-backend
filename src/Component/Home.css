@@ -1,0 +1,60 @@
+.home_container {
+  max-width: 1500px; /* Set your desired max-width */
+  margin: 0 auto; /* Centers the container horizontally */
+  background: linear-gradient(to bottom, #333333, #ffffff);
+
+}
+
+/* Style for the background image */
+.home_image {
+  width: 100%;
+  z-index: -1;
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: -150px; /* Add margin as needed */
+}
+
+/* Style for each row of products */
+.home_row {
+display: flex;
+z-index: 1;
+margin-left: 5px;
+margin-right: 5px;
+font-size: small;
+}
+
+/* Style for individual product components */
+/* You can add more specific styles here for Product component elements */
+/* For instance, you can target the title, price, rating, image, etc. */
+.product {
+  flex: 1; /* Each product takes equal space in the row */
+  margin-right: 10px; /* Add spacing between products */
+  padding: 10px; /* Add padding as needed */
+  background-color: #f9f9f9; /* Example background color */
+  border-radius: 5px; /* Example border radius */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Example box shadow */
+}
+
+/* Example styles for Product elements (modify as needed) */
+.product img {
+  width: 100%; /* Ensure images take full width */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 10px; /* Add spacing between image and other content */
+}
+
+.product .title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.product .price {
+  color: #e67e22; /* Example price color */
+  font-weight: bold;
+}
+
+.product .rating {
+  color: #f1c40f; /* Example rating color */
+  margin-bottom: 5px;
+}
+
+
+
